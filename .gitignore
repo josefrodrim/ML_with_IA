@@ -1,0 +1,27 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code (se versiona solo settings.json)
+.vscode/*
+!.vscode/settings.json
+
+# macOS
+.DS_Store
+
+# Office: archivos temporales de bloqueo
+~$*
+
+# Secretos
+.env
+.env.*
